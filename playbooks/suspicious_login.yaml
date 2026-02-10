@@ -1,0 +1,6 @@
+name: suspicious_login
+keywords:
+  - suspicious login
+actions:
+  - block_ip
+  - isolate_host

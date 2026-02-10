@@ -1,0 +1,12 @@
+{
+  "id": "ALERT-001",
+  "rule": {
+    "description": "SSH brute force attack detected"
+  },
+  "agent": {
+    "name": "linux-server-01"
+  },
+  "data": {
+    "srcip": "192.168.1.50"
+  }
+}

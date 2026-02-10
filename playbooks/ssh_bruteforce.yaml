@@ -1,0 +1,6 @@
+name: ssh_bruteforce
+keywords:
+  - ssh brute force
+actions:
+  - block_ip
+  - isolate_host
