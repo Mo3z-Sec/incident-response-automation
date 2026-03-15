@@ -6,6 +6,6 @@ def execute(alert):
     """
     Simulate isolating a compromised host.
     """
-    host = alert["agent"]["name"]
+    host = alert.get("agent", {}).get("name", "unknown host")
 
     print(f"[ACTION] Isolating host {host} from the network")

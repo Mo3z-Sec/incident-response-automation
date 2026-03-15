@@ -1,12 +1,15 @@
 {
   "id": "ALERT-001",
+  "type": "brute_force",
+  "severity": "medium",
   "rule": {
-    "description": "SSH brute force attack detected"
+    "description": "Malware detected on host"
   },
   "agent": {
-    "name": "linux-server-01"
+    "name": "windows-pc-01"
   },
   "data": {
-    "srcip": "192.168.1.50"
+    "file_path": "C:\\Users\\User\\Downloads\\suspicious.exe",
+    "hash": "abc123def456ghi789"
   }
 }

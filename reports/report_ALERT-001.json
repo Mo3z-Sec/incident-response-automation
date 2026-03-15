@@ -1,0 +1,11 @@
+{
+  "id": "ALERT-001",
+  "type": "brute_force",
+  "severity": "medium",
+  "host": "windows-pc-01",
+  "actions_taken": [
+    "kill_process",
+    "isolate_host"
+  ],
+  "summary": "Incident ALERT-001 detected on windows-pc-01. Type: brute_force. Severity: medium. Actions executed: ['kill_process', 'isolate_host']."
+}

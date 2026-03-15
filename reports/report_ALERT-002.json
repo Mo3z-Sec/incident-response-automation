@@ -1,0 +1,11 @@
+{
+  "id": "ALERT-002",
+  "type": "malware",
+  "severity": "high",
+  "host": "windows-pc-01",
+  "actions_taken": [
+    "kill_process",
+    "isolate_host"
+  ],
+  "summary": "Incident ALERT-002 detected on windows-pc-01. Type: malware. Severity: high. Actions executed: ['kill_process', 'isolate_host']."
+}

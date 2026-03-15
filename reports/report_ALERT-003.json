@@ -1,0 +1,11 @@
+{
+  "id": "ALERT-003",
+  "type": "suspicious_login",
+  "severity": "low",
+  "host": "windows-pc-01",
+  "actions_taken": [
+    "kill_process",
+    "isolate_host"
+  ],
+  "summary": "Incident ALERT-003 detected on windows-pc-01. Type: suspicious_login. Severity: low. Actions executed: ['kill_process', 'isolate_host']."
+}
